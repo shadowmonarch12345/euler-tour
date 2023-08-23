@@ -1,3 +1,6 @@
+
+//road blockage gfg job athon amzon alexa;
+
 const int MAXN = 2e5 + 4;
 vector<int> g[MAXN];
 bool vis[MAXN];
