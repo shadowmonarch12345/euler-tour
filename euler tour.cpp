@@ -1,6 +1,12 @@
 
 //road blockage gfg job athon amzon alexa;
+/*There are N cities in Geekland numbered 0, 1,.., N - 1. /*There are (N-1) bidirectional roads, the ith road connects city Edge[i][0] and Edge[i][1]. You can consider the length of each road as 1 unit. At least one path can be found between any two cities in Geekland.
 
+People of Geekland love ordering from Amazon. Its warehouse is located in city 0. But there is a rebel group in the country that can block any road and disrupt deliveries. 
+
+Geek is a software engineer at Amazon. He wants to develop a software that discards all the cities where delivery is not possible due to road blockage. For the remaining cities, the software calculates the maximum distance an item has to travel from city 0 to the customer living in any connected city x. 
+
+You are given Q queries; in the ith query, the road connecting city query[i][0] and query[i][1] is blocked by the rebel group. Help Geek to find the maximum distance for each query.*/
 const int MAXN = 2e5 + 4;
 vector<int> g[MAXN];
 bool vis[MAXN];
